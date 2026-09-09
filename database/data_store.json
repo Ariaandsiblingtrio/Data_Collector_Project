@@ -1,0 +1,1144 @@
+[
+  {
+    "receipt": "TXN_BDF543670F485035",
+    "stored_at": "2026-09-09T09:54:57.052579+00:00",
+    "dataset": {
+      "test_batch": 1,
+      "value": "omega_reading"
+    }
+  },
+  {
+    "receipt": "TXN_1FB626E946042A24",
+    "stored_at": "2026-09-09T09:54:57.121094+00:00",
+    "dataset": {
+      "system": {
+        "source": "system_telemetry",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-09T09:54:57.062569+00:00",
+        "latency_ms": 56.62,
+        "record_count": 4,
+        "data": {
+          "host": {
+            "platform": "Windows-11-10.0.22000-SP0",
+            "node": "Aviral-PC",
+            "machine": "AMD64",
+            "python_version": "3.13.7"
+          },
+          "cpu": {
+            "physical_cores": 6,
+            "logical_cores": 8,
+            "percent_utilization": 15.4,
+            "frequencies_mhz": {
+              "current": 1200.0,
+              "min": 0.0,
+              "max": 1200.0
+            }
+          },
+          "memory": {
+            "total_bytes": 16849293312,
+            "available_bytes": 2740457472,
+            "used_bytes": 14108835840,
+            "percent_used": 83.7
+          },
+          "disk": {
+            "C:\\": {
+              "device": "C:\\",
+              "fstype": "NTFS",
+              "total_bytes": 329270685696,
+              "used_bytes": 274603577344,
+              "free_bytes": 54667108352,
+              "percent_used": 83.4
+            },
+            "D:\\": {
+              "device": "D:\\",
+              "fstype": "NTFS",
+              "total_bytes": 104856547328,
+              "used_bytes": 69600612352,
+              "free_bytes": 35255934976,
+              "percent_used": 66.4
+            },
+            "E:\\": {
+              "device": "E:\\",
+              "fstype": "NTFS",
+              "total_bytes": 53686038528,
+              "used_bytes": 19346862080,
+              "free_bytes": 34339176448,
+              "percent_used": 36.0
+            },
+            "G:\\": {
+              "device": "G:\\",
+              "fstype": "FAT32",
+              "total_bytes": 329270685696,
+              "used_bytes": 277336936448,
+              "free_bytes": 51933749248,
+              "percent_used": 84.2
+            }
+          }
+        },
+        "error": null,
+        "summary": {
+          "numeric_fields": 26,
+          "min_val": 0.0,
+          "max_val": 329270685696,
+          "sum_val": 1667866503903.1,
+          "avg_val": 64148711688.58
+        }
+      },
+      "adk": {
+        "source": "aria_adk_swarm",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-09T09:54:57.119418+00:00",
+        "latency_ms": 1.5,
+        "record_count": 5,
+        "data": {
+          "installed_adks_count": 9,
+          "adks": [
+            {
+              "name": "Audio_Synthesis_ADK",
+              "description": "Generate synthetic voice waveforms",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Data_Analyzer_ADK",
+              "description": "Statistical data analysis and trend projection",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Disposable_ADK",
+              "description": "To be deleted",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Editor_ADK",
+              "description": "Test editing",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Faulty_ADK",
+              "description": "Prone to errors",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Image_Processing_ADK",
+              "description": "Filter and upscale images",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Logic_ADK",
+              "description": "Boolean evaluation module",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Sink_ADK",
+              "description": "Consumer of data",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Source_ADK",
+              "description": "Source of data",
+              "version": "1.0.0",
+              "author": "Aria"
+            }
+          ],
+          "total_available_tools": 0,
+          "sample_tools": [],
+          "target_adk_invoked": "none"
+        },
+        "error": null,
+        "summary": {
+          "numeric_fields": 4,
+          "min_val": 0,
+          "max_val": 9,
+          "sum_val": 18,
+          "avg_val": 4.5
+        }
+      }
+    }
+  },
+  {
+    "receipt": "TXN_AD98CD2690265A1B",
+    "stored_at": "2026-09-09T09:55:12.441268+00:00",
+    "dataset": {
+      "system": {
+        "source": "system_telemetry",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-09T09:55:11.179758+00:00",
+        "latency_ms": 121.94,
+        "record_count": 4,
+        "data": {
+          "host": {
+            "platform": "Windows-11-10.0.22000-SP0",
+            "node": "Aviral-PC",
+            "machine": "AMD64",
+            "python_version": "3.13.7"
+          },
+          "cpu": {
+            "physical_cores": 6,
+            "logical_cores": 8,
+            "percent_utilization": 0.0,
+            "frequencies_mhz": {
+              "current": 1200.0,
+              "min": 0.0,
+              "max": 1200.0
+            }
+          },
+          "memory": {
+            "total_bytes": 16849293312,
+            "available_bytes": 2786353152,
+            "used_bytes": 14062940160,
+            "percent_used": 83.5
+          },
+          "disk": {
+            "C:\\": {
+              "device": "C:\\",
+              "fstype": "NTFS",
+              "total_bytes": 329270685696,
+              "used_bytes": 274603786240,
+              "free_bytes": 54666899456,
+              "percent_used": 83.4
+            },
+            "D:\\": {
+              "device": "D:\\",
+              "fstype": "NTFS",
+              "total_bytes": 104856547328,
+              "used_bytes": 69600612352,
+              "free_bytes": 35255934976,
+              "percent_used": 66.4
+            },
+            "E:\\": {
+              "device": "E:\\",
+              "fstype": "NTFS",
+              "total_bytes": 53686038528,
+              "used_bytes": 19346870272,
+              "free_bytes": 34339168256,
+              "percent_used": 36.0
+            },
+            "G:\\": {
+              "device": "G:\\",
+              "fstype": "FAT32",
+              "total_bytes": 329270685696,
+              "used_bytes": 277337133056,
+              "free_bytes": 51933552640,
+              "percent_used": 84.2
+            }
+          }
+        },
+        "error": null,
+        "summary": {
+          "numeric_fields": 26,
+          "min_val": 0.0,
+          "max_val": 329270685696,
+          "sum_val": 1667866503887.5,
+          "avg_val": 64148711687.98
+        }
+      },
+      "file": {
+        "source": "file_ingestion",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-09T09:55:11.302030+00:00",
+        "latency_ms": 17.64,
+        "record_count": 3,
+        "data": {
+          "target_dir": "E:\\ARIA FILES\\Projects\\Data_Collector\\src",
+          "files_scanned": 23,
+          "files": [
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\main_module.py",
+              "filename": "main_module.py",
+              "extension": ".py",
+              "size_bytes": 5173,
+              "created_at": 1788947209.642761,
+              "modified_at": 1788947705.8527007,
+              "hashes": {
+                "md5": "c1e114884dd598395324f9e882774210",
+                "sha256": "856800b9ddcd22c818c7bb8c26955f724f2a78172860f7c1eccda3ffc50654ed"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\__init__.py",
+              "filename": "__init__.py",
+              "extension": ".py",
+              "size_bytes": 198,
+              "created_at": 1788947182.1447234,
+              "modified_at": 1788947690.2262635,
+              "hashes": {
+                "md5": "95d31e213cf8a3b80f8f2687d523f760",
+                "sha256": "7478de473d32a81c0e26c75825c72a248e380a9f699cb68573f231fe7c919fa6"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\adk_collector.py",
+              "filename": "adk_collector.py",
+              "extension": ".py",
+              "size_bytes": 2104,
+              "created_at": 1788947690.2229068,
+              "modified_at": 1788947690.2229068,
+              "hashes": {
+                "md5": "55e6903adb8ee1903f817eb3a208b6dc",
+                "sha256": "97e66941b522e97eb1e172ec2f3035fb228a6ca9a9d42a67a66e72caab02f52c"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\base.py",
+              "filename": "base.py",
+              "extension": ".py",
+              "size_bytes": 1937,
+              "created_at": 1788947690.21994,
+              "modified_at": 1788947690.2206147,
+              "hashes": {
+                "md5": "6cfd5563fbacf5933c92444e611891f8",
+                "sha256": "f09e6ba7a7c8855d34c365e952cf448640a08a2c753b13b3baff5cc157bd16cf"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\file_collector.py",
+              "filename": "file_collector.py",
+              "extension": ".py",
+              "size_bytes": 3383,
+              "created_at": 1788947690.2216356,
+              "modified_at": 1788947690.222219,
+              "hashes": {
+                "md5": "e0d3733e26ce3bcf30b8ad00ab30fed9",
+                "sha256": "f2588b9ea6c98e965a4b087d230d3a457561d0f74e0542877bbd03803cd42929"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\system_collector.py",
+              "filename": "system_collector.py",
+              "extension": ".py",
+              "size_bytes": 3581,
+              "created_at": 1788947690.2206147,
+              "modified_at": 1788947690.2216356,
+              "hashes": {
+                "md5": "f741d9ed2fbc218bfc656583d7ed59b1",
+                "sha256": "0f9ba4727d20393002e49b34ac12c855fbec7418b51c2b52f15fc660fcbe0e66"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\web_collector.py",
+              "filename": "web_collector.py",
+              "extension": ".py",
+              "size_bytes": 2286,
+              "created_at": 1788947690.222219,
+              "modified_at": 1788947690.2227077,
+              "hashes": {
+                "md5": "94baabdf410875be2a7e86bed4e22c49",
+                "sha256": "e2166460cc3720d26f2f5918136bb5821c102f2a64383f142a228d83d78bf307"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__init__.py",
+              "filename": "__init__.py",
+              "extension": ".py",
+              "size_bytes": 366,
+              "created_at": 1788947690.2229068,
+              "modified_at": 1788947690.224342,
+              "hashes": {
+                "md5": "d511a47efe8c41d5a7b2d762a4a4a377",
+                "sha256": "b595d6dc76faa911ac367824975ce17bf8645f12526ae99d9c1119639d639f3b"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\adk_collector.cpython-313.pyc",
+              "filename": "adk_collector.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 3066,
+              "created_at": 1788947695.707694,
+              "modified_at": 1788947695.707694,
+              "hashes": {
+                "md5": "702ff7385bfbab2b958174ff02b9d58e",
+                "sha256": "b6680cf93bcd0c7cf9c177aed9615a57159fa612cac5ade7877f70f2c464daa4"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\base.cpython-313.pyc",
+              "filename": "base.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 2802,
+              "created_at": 1788947695.6526544,
+              "modified_at": 1788947695.6526544,
+              "hashes": {
+                "md5": "85feb01ec2e0d2902b86c773fd130894",
+                "sha256": "0e5953ddbb6d0569b461a912c9f0369353fb3570065850feafd32a2cc1c864e0"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\file_collector.cpython-313.pyc",
+              "filename": "file_collector.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 5518,
+              "created_at": 1788947695.6769285,
+              "modified_at": 1788947695.677912,
+              "hashes": {
+                "md5": "a8e7858019decd4b5e3d2560e76d76db",
+                "sha256": "00f2329c966d481c89bea71fcb65e6c3b607bc34dc22c3442bf19062d96bcba9"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\system_collector.cpython-313.pyc",
+              "filename": "system_collector.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 4785,
+              "created_at": 1788947695.662294,
+              "modified_at": 1788947695.662294,
+              "hashes": {
+                "md5": "e1be6ebb7eeb4ccc7ac0fba79b1e7166",
+                "sha256": "26a9f37eac9c5d0dc0155924fde2c513c447a9439001e8d77ee011b484f14197"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\web_collector.cpython-313.pyc",
+              "filename": "web_collector.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 3148,
+              "created_at": 1788947695.6951158,
+              "modified_at": 1788947695.6951158,
+              "hashes": {
+                "md5": "f31033ecfe6d9597997d021a708c8846",
+                "sha256": "297072f6dd443727d3da6ca034f32e4ae66df7b1b249edd10a1478a86dac59ba"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\__init__.cpython-313.pyc",
+              "filename": "__init__.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 515,
+              "created_at": 1788947695.637643,
+              "modified_at": 1788947695.637643,
+              "hashes": {
+                "md5": "5e72c148ffbf849ee7f3b35cde42852e",
+                "sha256": "6414c6d694a5ba94687ee56d99ba16a9c5cdf53a3dfae7b10cf5cef76b068d1d"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\storage.py",
+              "filename": "storage.py",
+              "extension": ".py",
+              "size_bytes": 3442,
+              "created_at": 1788947690.2256324,
+              "modified_at": 1788947690.2256324,
+              "hashes": {
+                "md5": "1c0fdc50b5bf6ffbb6b45da16909728c",
+                "sha256": "eab3108c1e659cf2ec3d5165117a613122fb58d83f6c9b01da3672e15c4f96cb"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\transformer.py",
+              "filename": "transformer.py",
+              "extension": ".py",
+              "size_bytes": 1661,
+              "created_at": 1788947690.2248538,
+              "modified_at": 1788947690.2248538,
+              "hashes": {
+                "md5": "9278a6833bd742f59313a26f28330b06",
+                "sha256": "9e6a7960a55b4a297a09dfcd4aa262a2275145f56a2bfa60e320fcece7ac7d62"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\validator.py",
+              "filename": "validator.py",
+              "extension": ".py",
+              "size_bytes": 1997,
+              "created_at": 1788947690.2248538,
+              "modified_at": 1788947690.2248538,
+              "hashes": {
+                "md5": "a578c1e90e3cbebdcb90c2e6eb940e48",
+                "sha256": "05ab239bf75b6316677fec6f70c4aa275174d3087f5544e46e8842f2309301f2"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\__init__.py",
+              "filename": "__init__.py",
+              "extension": ".py",
+              "size_bytes": 211,
+              "created_at": 1788947690.2256324,
+              "modified_at": 1788947690.2261178,
+              "hashes": {
+                "md5": "1e2a5192f3486e77241a05ed7da91386",
+                "sha256": "97723817fe2f6c651878ff8e487ee34d72876d5934444ea935ca00da37ccaaae"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\__pycache__\\storage.cpython-313.pyc",
+              "filename": "storage.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 5544,
+              "created_at": 1788947695.7518399,
+              "modified_at": 1788947695.7518399,
+              "hashes": {
+                "md5": "60137aa96d425b9c0f744275ba1f4da8",
+                "sha256": "0b8bb8b10effe8203264ddc6d630db71411dcc7fdde31e2aa568d6e126ed60b1"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\__pycache__\\transformer.cpython-313.pyc",
+              "filename": "transformer.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 2849,
+              "created_at": 1788947695.738825,
+              "modified_at": 1788947695.738825,
+              "hashes": {
+                "md5": "3c8ff0308a515106ed74163bd05d1c97",
+                "sha256": "1b660b90428e814435aef21b28de9e76c889ac12977f02f49cde1e19b8119430"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\__pycache__\\validator.cpython-313.pyc",
+              "filename": "validator.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 3306,
+              "created_at": 1788947695.7256794,
+              "modified_at": 1788947695.7259138,
+              "hashes": {
+                "md5": "c493226d252a6c10e0d7c194b415fcfc",
+                "sha256": "99867d71a5c7bdbf26e9e5a48f3254b5abc537e23484591fa33cd7c43fae4eb4"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\__pycache__\\__init__.cpython-313.pyc",
+              "filename": "__init__.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 388,
+              "created_at": 1788947695.7156777,
+              "modified_at": 1788947695.7156777,
+              "hashes": {
+                "md5": "09c9c236997f4badd97aa623c8a70b9c",
+                "sha256": "39b20141466db3386d3775bed732f5ee4988ae8be912f7ff61c29d10362689a7"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\__pycache__\\main_module.cpython-313.pyc",
+              "filename": "main_module.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 6475,
+              "created_at": 1788947695.6269274,
+              "modified_at": 1788947695.6269274,
+              "hashes": {
+                "md5": "673e1e538d922a81c22ad52d0e9d1552",
+                "sha256": "eab5dd214b522afc0a78dc396cb6119b7d22f2c2facc0d862b1ced138c920285"
+              }
+            }
+          ]
+        },
+        "error": null,
+        "summary": {
+          "numeric_fields": 2,
+          "min_val": 23,
+          "max_val": 23,
+          "sum_val": 46,
+          "avg_val": 23.0
+        }
+      },
+      "web": {
+        "source": "web_api",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-09T09:55:11.319939+00:00",
+        "latency_ms": 0.02,
+        "record_count": 4,
+        "data": {
+          "source_type": "offline_mock",
+          "simulated_endpoint": "https://api.aria.local/telemetry/sample",
+          "status_code": 200,
+          "payload": {
+            "sensor_network": "Aria_IoT_Grid",
+            "metrics": [
+              {
+                "node": "alpha_1",
+                "temperature_c": 21.4,
+                "humidity_pct": 45.2
+              },
+              {
+                "node": "beta_2",
+                "temperature_c": 22.1,
+                "humidity_pct": 43.8
+              }
+            ],
+            "heartbeat": "2026-09-09T09:55:11.319951+00:00"
+          }
+        },
+        "error": null,
+        "summary": {
+          "numeric_fields": 2,
+          "min_val": 2,
+          "max_val": 200,
+          "sum_val": 202,
+          "avg_val": 101.0
+        }
+      },
+      "adk": {
+        "source": "aria_adk_swarm",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-09T09:55:11.319990+00:00",
+        "latency_ms": 1121.0,
+        "record_count": 5,
+        "data": {
+          "installed_adks_count": 9,
+          "adks": [
+            {
+              "name": "Audio_Synthesis_ADK",
+              "description": "Generate synthetic voice waveforms",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Data_Analyzer_ADK",
+              "description": "Statistical data analysis and trend projection",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Disposable_ADK",
+              "description": "To be deleted",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Editor_ADK",
+              "description": "Test editing",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Faulty_ADK",
+              "description": "Prone to errors",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Image_Processing_ADK",
+              "description": "Filter and upscale images",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Logic_ADK",
+              "description": "Boolean evaluation module",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Sink_ADK",
+              "description": "Consumer of data",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Source_ADK",
+              "description": "Source of data",
+              "version": "1.0.0",
+              "author": "Aria"
+            }
+          ],
+          "total_available_tools": 0,
+          "sample_tools": [],
+          "target_adk_invoked": "none"
+        },
+        "error": null,
+        "summary": {
+          "numeric_fields": 4,
+          "min_val": 0,
+          "max_val": 9,
+          "sum_val": 18,
+          "avg_val": 4.5
+        }
+      }
+    }
+  },
+  {
+    "receipt": "TXN_C82EC64579F979BC",
+    "stored_at": "2026-09-09T17:20:39.901104+00:00",
+    "dataset": {
+      "system": {
+        "source": "system_telemetry",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-09T17:20:38.165523+00:00",
+        "latency_ms": 163.82,
+        "record_count": 4,
+        "data": {
+          "host": {
+            "platform": "Windows-11-10.0.22000-SP0",
+            "node": "Aviral-PC",
+            "machine": "AMD64",
+            "python_version": "3.13.7"
+          },
+          "cpu": {
+            "physical_cores": 6,
+            "logical_cores": 8,
+            "percent_utilization": 0.0,
+            "frequencies_mhz": {
+              "current": 1200.0,
+              "min": 0.0,
+              "max": 1200.0
+            }
+          },
+          "memory": {
+            "total_bytes": 16849293312,
+            "available_bytes": 5480947712,
+            "used_bytes": 11368345600,
+            "percent_used": 67.5
+          },
+          "disk": {
+            "C:\\": {
+              "device": "C:\\",
+              "fstype": "NTFS",
+              "total_bytes": 329270685696,
+              "used_bytes": 275994349568,
+              "free_bytes": 53276336128,
+              "percent_used": 83.8
+            },
+            "D:\\": {
+              "device": "D:\\",
+              "fstype": "NTFS",
+              "total_bytes": 104856547328,
+              "used_bytes": 69600612352,
+              "free_bytes": 35255934976,
+              "percent_used": 66.4
+            },
+            "E:\\": {
+              "device": "E:\\",
+              "fstype": "NTFS",
+              "total_bytes": 53686038528,
+              "used_bytes": 19346972672,
+              "free_bytes": 34339065856,
+              "percent_used": 36.0
+            },
+            "G:\\": {
+              "device": "G:\\",
+              "fstype": "FAT32",
+              "total_bytes": 329270685696,
+              "used_bytes": 278658166784,
+              "free_bytes": 50612518912,
+              "percent_used": 84.6
+            }
+          }
+        },
+        "error": null,
+        "summary": {
+          "numeric_fields": 26,
+          "min_val": 0.0,
+          "max_val": 329270685696,
+          "sum_val": 1667866503872.3,
+          "avg_val": 64148711687.4
+        }
+      },
+      "file": {
+        "source": "file_ingestion",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-09T17:20:38.355800+00:00",
+        "latency_ms": 135.41,
+        "record_count": 3,
+        "data": {
+          "target_dir": "E:\\ARIA FILES\\Projects\\Data_Collector\\src",
+          "files_scanned": 23,
+          "files": [
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\main_module.py",
+              "filename": "main_module.py",
+              "extension": ".py",
+              "size_bytes": 5173,
+              "created_at": 1788947209.642761,
+              "modified_at": 1788947705.8527007,
+              "hashes": {
+                "md5": "c1e114884dd598395324f9e882774210",
+                "sha256": "856800b9ddcd22c818c7bb8c26955f724f2a78172860f7c1eccda3ffc50654ed"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\__init__.py",
+              "filename": "__init__.py",
+              "extension": ".py",
+              "size_bytes": 198,
+              "created_at": 1788947182.1447234,
+              "modified_at": 1788947690.2262635,
+              "hashes": {
+                "md5": "95d31e213cf8a3b80f8f2687d523f760",
+                "sha256": "7478de473d32a81c0e26c75825c72a248e380a9f699cb68573f231fe7c919fa6"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\adk_collector.py",
+              "filename": "adk_collector.py",
+              "extension": ".py",
+              "size_bytes": 2104,
+              "created_at": 1788947690.2229068,
+              "modified_at": 1788947690.2229068,
+              "hashes": {
+                "md5": "55e6903adb8ee1903f817eb3a208b6dc",
+                "sha256": "97e66941b522e97eb1e172ec2f3035fb228a6ca9a9d42a67a66e72caab02f52c"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\base.py",
+              "filename": "base.py",
+              "extension": ".py",
+              "size_bytes": 1937,
+              "created_at": 1788947690.21994,
+              "modified_at": 1788947690.2206147,
+              "hashes": {
+                "md5": "6cfd5563fbacf5933c92444e611891f8",
+                "sha256": "f09e6ba7a7c8855d34c365e952cf448640a08a2c753b13b3baff5cc157bd16cf"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\file_collector.py",
+              "filename": "file_collector.py",
+              "extension": ".py",
+              "size_bytes": 3383,
+              "created_at": 1788947690.2216356,
+              "modified_at": 1788947690.222219,
+              "hashes": {
+                "md5": "e0d3733e26ce3bcf30b8ad00ab30fed9",
+                "sha256": "f2588b9ea6c98e965a4b087d230d3a457561d0f74e0542877bbd03803cd42929"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\system_collector.py",
+              "filename": "system_collector.py",
+              "extension": ".py",
+              "size_bytes": 3581,
+              "created_at": 1788947690.2206147,
+              "modified_at": 1788947690.2216356,
+              "hashes": {
+                "md5": "f741d9ed2fbc218bfc656583d7ed59b1",
+                "sha256": "0f9ba4727d20393002e49b34ac12c855fbec7418b51c2b52f15fc660fcbe0e66"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\web_collector.py",
+              "filename": "web_collector.py",
+              "extension": ".py",
+              "size_bytes": 2286,
+              "created_at": 1788947690.222219,
+              "modified_at": 1788947690.2227077,
+              "hashes": {
+                "md5": "94baabdf410875be2a7e86bed4e22c49",
+                "sha256": "e2166460cc3720d26f2f5918136bb5821c102f2a64383f142a228d83d78bf307"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__init__.py",
+              "filename": "__init__.py",
+              "extension": ".py",
+              "size_bytes": 366,
+              "created_at": 1788947690.2229068,
+              "modified_at": 1788947690.224342,
+              "hashes": {
+                "md5": "d511a47efe8c41d5a7b2d762a4a4a377",
+                "sha256": "b595d6dc76faa911ac367824975ce17bf8645f12526ae99d9c1119639d639f3b"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\adk_collector.cpython-313.pyc",
+              "filename": "adk_collector.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 3066,
+              "created_at": 1788947695.707694,
+              "modified_at": 1788947695.707694,
+              "hashes": {
+                "md5": "702ff7385bfbab2b958174ff02b9d58e",
+                "sha256": "b6680cf93bcd0c7cf9c177aed9615a57159fa612cac5ade7877f70f2c464daa4"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\base.cpython-313.pyc",
+              "filename": "base.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 2802,
+              "created_at": 1788947695.6526544,
+              "modified_at": 1788947695.6526544,
+              "hashes": {
+                "md5": "85feb01ec2e0d2902b86c773fd130894",
+                "sha256": "0e5953ddbb6d0569b461a912c9f0369353fb3570065850feafd32a2cc1c864e0"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\file_collector.cpython-313.pyc",
+              "filename": "file_collector.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 5518,
+              "created_at": 1788947695.6769285,
+              "modified_at": 1788947695.677912,
+              "hashes": {
+                "md5": "a8e7858019decd4b5e3d2560e76d76db",
+                "sha256": "00f2329c966d481c89bea71fcb65e6c3b607bc34dc22c3442bf19062d96bcba9"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\system_collector.cpython-313.pyc",
+              "filename": "system_collector.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 4785,
+              "created_at": 1788947695.662294,
+              "modified_at": 1788947695.662294,
+              "hashes": {
+                "md5": "e1be6ebb7eeb4ccc7ac0fba79b1e7166",
+                "sha256": "26a9f37eac9c5d0dc0155924fde2c513c447a9439001e8d77ee011b484f14197"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\web_collector.cpython-313.pyc",
+              "filename": "web_collector.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 3148,
+              "created_at": 1788947695.6951158,
+              "modified_at": 1788947695.6951158,
+              "hashes": {
+                "md5": "f31033ecfe6d9597997d021a708c8846",
+                "sha256": "297072f6dd443727d3da6ca034f32e4ae66df7b1b249edd10a1478a86dac59ba"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\collectors\\__pycache__\\__init__.cpython-313.pyc",
+              "filename": "__init__.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 515,
+              "created_at": 1788947695.637643,
+              "modified_at": 1788947695.637643,
+              "hashes": {
+                "md5": "5e72c148ffbf849ee7f3b35cde42852e",
+                "sha256": "6414c6d694a5ba94687ee56d99ba16a9c5cdf53a3dfae7b10cf5cef76b068d1d"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\storage.py",
+              "filename": "storage.py",
+              "extension": ".py",
+              "size_bytes": 3442,
+              "created_at": 1788947690.2256324,
+              "modified_at": 1788947690.2256324,
+              "hashes": {
+                "md5": "1c0fdc50b5bf6ffbb6b45da16909728c",
+                "sha256": "eab3108c1e659cf2ec3d5165117a613122fb58d83f6c9b01da3672e15c4f96cb"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\transformer.py",
+              "filename": "transformer.py",
+              "extension": ".py",
+              "size_bytes": 1661,
+              "created_at": 1788947690.2248538,
+              "modified_at": 1788947690.2248538,
+              "hashes": {
+                "md5": "9278a6833bd742f59313a26f28330b06",
+                "sha256": "9e6a7960a55b4a297a09dfcd4aa262a2275145f56a2bfa60e320fcece7ac7d62"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\validator.py",
+              "filename": "validator.py",
+              "extension": ".py",
+              "size_bytes": 1997,
+              "created_at": 1788947690.2248538,
+              "modified_at": 1788947690.2248538,
+              "hashes": {
+                "md5": "a578c1e90e3cbebdcb90c2e6eb940e48",
+                "sha256": "05ab239bf75b6316677fec6f70c4aa275174d3087f5544e46e8842f2309301f2"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\__init__.py",
+              "filename": "__init__.py",
+              "extension": ".py",
+              "size_bytes": 211,
+              "created_at": 1788947690.2256324,
+              "modified_at": 1788947690.2261178,
+              "hashes": {
+                "md5": "1e2a5192f3486e77241a05ed7da91386",
+                "sha256": "97723817fe2f6c651878ff8e487ee34d72876d5934444ea935ca00da37ccaaae"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\__pycache__\\storage.cpython-313.pyc",
+              "filename": "storage.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 5544,
+              "created_at": 1788947695.7518399,
+              "modified_at": 1788947695.7518399,
+              "hashes": {
+                "md5": "60137aa96d425b9c0f744275ba1f4da8",
+                "sha256": "0b8bb8b10effe8203264ddc6d630db71411dcc7fdde31e2aa568d6e126ed60b1"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\__pycache__\\transformer.cpython-313.pyc",
+              "filename": "transformer.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 2849,
+              "created_at": 1788947695.738825,
+              "modified_at": 1788947695.738825,
+              "hashes": {
+                "md5": "3c8ff0308a515106ed74163bd05d1c97",
+                "sha256": "1b660b90428e814435aef21b28de9e76c889ac12977f02f49cde1e19b8119430"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\__pycache__\\validator.cpython-313.pyc",
+              "filename": "validator.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 3306,
+              "created_at": 1788947695.7256794,
+              "modified_at": 1788947695.7259138,
+              "hashes": {
+                "md5": "c493226d252a6c10e0d7c194b415fcfc",
+                "sha256": "99867d71a5c7bdbf26e9e5a48f3254b5abc537e23484591fa33cd7c43fae4eb4"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\pipeline\\__pycache__\\__init__.cpython-313.pyc",
+              "filename": "__init__.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 388,
+              "created_at": 1788947695.7156777,
+              "modified_at": 1788947695.7156777,
+              "hashes": {
+                "md5": "09c9c236997f4badd97aa623c8a70b9c",
+                "sha256": "39b20141466db3386d3775bed732f5ee4988ae8be912f7ff61c29d10362689a7"
+              }
+            },
+            {
+              "path": "E:\\ARIA FILES\\Projects\\Data_Collector\\src\\__pycache__\\main_module.cpython-313.pyc",
+              "filename": "main_module.cpython-313.pyc",
+              "extension": ".pyc",
+              "size_bytes": 6481,
+              "created_at": 1788974437.8241081,
+              "modified_at": 1788974437.8241081,
+              "hashes": {
+                "md5": "dc395ebcba9ad8aec0d47e252e9ca4fc",
+                "sha256": "2ab9ddcdcc33c4be03abc73b9f9e1b41d9c99b4e7a6f06f4ef7f31de3ef999c8"
+              }
+            }
+          ]
+        },
+        "error": null,
+        "summary": {
+          "numeric_fields": 2,
+          "min_val": 23,
+          "max_val": 23,
+          "sum_val": 46,
+          "avg_val": 23.0
+        }
+      },
+      "web": {
+        "source": "web_api",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-09T17:20:38.491518+00:00",
+        "latency_ms": 0.02,
+        "record_count": 4,
+        "data": {
+          "source_type": "offline_mock",
+          "simulated_endpoint": "https://api.aria.local/telemetry/sample",
+          "status_code": 200,
+          "payload": {
+            "sensor_network": "Aria_IoT_Grid",
+            "metrics": [
+              {
+                "node": "alpha_1",
+                "temperature_c": 21.4,
+                "humidity_pct": 45.2
+              },
+              {
+                "node": "beta_2",
+                "temperature_c": 22.1,
+                "humidity_pct": 43.8
+              }
+            ],
+            "heartbeat": "2026-09-09T17:20:38.491530+00:00"
+          }
+        },
+        "error": null,
+        "summary": {
+          "numeric_fields": 2,
+          "min_val": 2,
+          "max_val": 200,
+          "sum_val": 202,
+          "avg_val": 101.0
+        }
+      },
+      "adk": {
+        "source": "aria_adk_swarm",
+        "status": "SUCCESS",
+        "timestamp": "2026-09-09T17:20:38.491572+00:00",
+        "latency_ms": 1409.2,
+        "record_count": 5,
+        "data": {
+          "installed_adks_count": 9,
+          "adks": [
+            {
+              "name": "Audio_Synthesis_ADK",
+              "description": "Generate synthetic voice waveforms",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Data_Analyzer_ADK",
+              "description": "Statistical data analysis and trend projection",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Disposable_ADK",
+              "description": "To be deleted",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Editor_ADK",
+              "description": "Test editing",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Faulty_ADK",
+              "description": "Prone to errors",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Image_Processing_ADK",
+              "description": "Filter and upscale images",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Logic_ADK",
+              "description": "Boolean evaluation module",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Sink_ADK",
+              "description": "Consumer of data",
+              "version": "1.0.0",
+              "author": "Aria"
+            },
+            {
+              "name": "Source_ADK",
+              "description": "Source of data",
+              "version": "1.0.0",
+              "author": "Aria"
+            }
+          ],
+          "total_available_tools": 0,
+          "sample_tools": [],
+          "target_adk_invoked": "none"
+        },
+        "error": null,
+        "summary": {
+          "numeric_fields": 4,
+          "min_val": 0,
+          "max_val": 9,
+          "sum_val": 18,
+          "avg_val": 4.5
+        }
+      }
+    }
+  }
+]
